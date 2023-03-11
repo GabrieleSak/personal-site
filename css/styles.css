@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #748DA6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 5.625rem;  /* 16px = 100% = 1em */
+    color: #748DA6;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #9CB4CC;
+    font-weight: normal;
+
+}
+
+h3 {
+    color: #4748DA6;
+}
+
+
+a {
+    color: #748DA6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+hr {
+    width: 10%;
+    border: none;
+    border-top: 10px dotted #9CB4CC;
+    margin: 40px auto 40px auto;
+
+}
+
+/*Top container */
+
+.top-container {
+    background-color: #F2D7D9;
+    position: relative;
+    padding-top: 100px;
+    font-family: 'Merriweather', serif;
+    color: #748DA6;
+}
+
+.top-container h2 {
+    color: #748DA6;
+}
+
+.star-img{
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+
+.rocket-img {
+    left: 500px;
+}
+
+/* Profile section */
+
+.profile {
+    padding: 5% 10%;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 15%;
+}
+
+.hello-text {
+    width:50%;
+    margin: 0px auto 0px auto;
+}
+
+/* Skills section */
+
+.skills {
+    padding: 5% 10%;
+}
+
+.skill-img {
+}
+
+.skill-card{
+width: 30%;
+}
+
+.skill-title {
+    font-size: 1.5rem;
+}
+
+.row-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Courses section */
+
+.courses {
+    padding: 5% 10%;
+}
+
+.course-row {
+    padding: 2% 15%;
+    text-align: left;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+
+.course-img {
+    margin-right: 10%;
+}
+
+.course-title {
+    font-size: 1.5rem;
+    font-style: italic ;
+}
+
+a.course-title {
+    text-decoration: underline;
+}
+
+/* Contact me*/
+
+.contact-me{
+    padding: 5% 10%;
+}
+
+.icon {
+    font-size: 3.5rem;
+    padding: 2% 2%;
+}
+
+/* Footer */
+
+
+.bottom-container {
+    background-color: #F2D7D9;
+    padding: 50px 0 20px;
+}
+
+.copyrights {
+    color: #748DA6;
+    padding-top: 20px 0;
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.attribution {
+    color: #748DA6;
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link{
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+@media (max-width: 500px) {
+    .row-flex {
+        flex-flow: column;
+    }
+
+    .skill-card{
+        width: 100%;
+     }
+}
